@@ -2,43 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids Wear Shop</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header>
-    <h1>Kids Wear Shop</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="cart.html">Cart</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <section class="hero">
-        <h2>Welcome to Kids Wear Shop</h2>
-        <p>Find the best clothing for your little ones!</p>
-    </section>
-    <section class="featured-products">
-        <h2>Featured Products</h2>
-        <div class="product-list">
-            <!-- Sample Product -->
-            <div class="product">
-                <img src="path/to/image1.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p>$19.99</p>
-                <a href="product.html?id=1">View Details</a>
-            </div>
-            <!-- More products can be added here -->
+
+    <body>
+
+    <section id="header">
+        <a class="active" href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            </ul>
         </div>
     </section>
-</main>
-<footer>
-    <p>&copy; 2024 Kids Wear Shop</p>
-</footer>
-<script src="js/main.js"></script>
-</body>
+
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>
+        <h1>On all products</h1>
+        <p>Save more with coupons & up to 70% off!</p>
+        <button>Shop Now</button>
+    </section>
+
+    <script src="script.js"></script>
+    </body>
 </html>
